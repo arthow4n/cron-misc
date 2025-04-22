@@ -1,0 +1,10 @@
+{
+  "license": "MIT",
+  "unstable": ["temporal"],
+  "tasks": {
+    "mailbox": "deno run --allow-net=api.telegram.org:443,portal.postnord.com:443 --allow-env=TELEGRAM_BOT_TOKEN,TELEGRAM_CHAT_ID,POSTNORD_POSTALCODE checkMailbox.ts"
+  },
+  "imports": {
+    "grammy": "npm:grammy@^1.36.1"
+  }
+}
